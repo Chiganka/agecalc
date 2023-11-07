@@ -1,6 +1,7 @@
-Year =  int(input("Enter current year: "))
+from datetime import datetime
 
-Byear = int(input("Enter your birth year: "))
+byear = int(input("keso sheikvane sheni dabadebis weli: "))
 
-print("your age is " + str(Year - Byear) + " year.")
+time = datetime.now().year
 
+print("shen xar " + str(time - byear) + " wlis." )
